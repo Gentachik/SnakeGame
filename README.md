@@ -10,34 +10,34 @@ To play the game, follow these steps:
 
 # Classes
 * BoardVisual
-A class that extends AbstractTableModel and represents the game board. It provides data and information about the board's dimensions and contents.
+a class that extends AbstractTableModel and represents the game board. It provides data and information about the board's dimensions and contents.
 
 * Cell
-A class that implements TableCellRenderer and represents the rendering of a single cell in the game board. It determines the color of each cell based on its value.
+a class that implements TableCellRenderer and represents the rendering of a single cell in the game board. It determines the color of each cell based on its value.
 
 * Direction
-An enum representing the possible directions of movement for the snake.
+a enum representing the possible directions of movement for the snake.
 
 * Inter
-An interface that defines the methods and functionality required by the game logic.
+a interface that defines the methods and functionality required by the game logic.
 
 * Logic
-A class that implements the Inter interface and provides the game logic. It controls the movement of the snake, detects collisions, and manages the game state.
+a class that implements the Inter interface and provides the game logic. It controls the movement of the snake, detects collisions, and manages the game state.
 
 * MoveEvent
-An event class that is triggered when a move occurs. It contains information about the position of the move.
+a event class that is triggered when a move occurs. It contains information about the position of the move.
 
 * PaintEvent
-An event class that is triggered when the game needs to be repainted. It contains information such as the current score.
+a event class that is triggered when the game needs to be repainted. It contains information such as the current score.
 
 * PaintListener
-An interface for the paint event listener.
+a interface for the paint event listener.
 
 * RepaintListener
-An interface for the repaint event listener.
+a interface for the repaint event listener.
 
 * ScorePanel
-A JPanel that displays the current score during the game.
+a JPanel that displays the current score during the game.
 
 * Window
-A JFrame that represents the game window. It contains the game board, score panel, and handles user input.
+a JFrame that represents the game window. It contains the game board, score panel, and handles user input.
