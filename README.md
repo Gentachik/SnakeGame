@@ -18,7 +18,7 @@ A class that implements TableCellRenderer and represents the rendering of a sing
 * Direction
 An enum representing the possible directions of movement for the snake.
 
-*Inter
+* Inter
 An interface that defines the methods and functionality required by the game logic.
 
 * Logic
