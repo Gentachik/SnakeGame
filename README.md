@@ -12,7 +12,7 @@ To play the game, follow these steps:
 BoardVisual
 A class that extends AbstractTableModel and represents the game board. It provides data and information about the board's dimensions and contents.
 
-Cell
+* Cell
 A class that implements TableCellRenderer and represents the rendering of a single cell in the game board. It determines the color of each cell based on its value.
 
 Direction
